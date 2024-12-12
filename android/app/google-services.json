@@ -121,6 +121,25 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:289822193769:android:9573f9a61dac863c644af8",
+        "android_client_info": {
+          "package_name": "com.example.tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk70nf-reJomO1nA9d3wHMPyP3TbzN0DQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:289822193769:android:736e3dbaf691116e644af8",
         "android_client_info": {
           "package_name": "com.jd.taskapp"

@@ -42,12 +42,12 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyB1JE8PMPXzfkzShKW2ceCeAgJYGmFznu8',
-    appId: '1:289822193769:web:64cba20685ffb396644af8',
+    appId: '1:289822193769:web:21780d6b6304d67d644af8',
     messagingSenderId: '289822193769',
     projectId: 'aunthentication-4baea',
     authDomain: 'aunthentication-4baea.firebaseapp.com',
     storageBucket: 'aunthentication-4baea.firebasestorage.app',
-    measurementId: 'G-L2JGSH9ME0',
+    measurementId: 'G-T4YBSD32ZB',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
@@ -85,4 +85,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'aunthentication-4baea.firebasestorage.app',
     measurementId: 'G-KL221MJ3QJ',
   );
+
 }
