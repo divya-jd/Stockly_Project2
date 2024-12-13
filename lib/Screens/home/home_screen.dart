@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:stockly/Screens/home/settings_form.dart';
 import 'package:stockly/Screens/stock%20screen/top_stocks.dart';
 import 'package:stockly/Screens/stock%20screen/top_stocks_page.dart';
-import 'package:stockly/services/auth.dart';
+import 'package:stockly/services/auth_services.dart';
 import 'package:stockly/services/database.dart';
 import 'package:provider/provider.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
