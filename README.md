@@ -29,10 +29,49 @@ To run **Stockly** locally, follow the steps below:
 ### 1. Clone the Repository
 
 ```bash
-git clone [Stockly Repository](https://github.com/divya-jd/Stockly_Project2)
+git clone https://github.com/divya-jd/Stockly_Project2
+```
 ### 2. Install Dependencies
+
+```bash
 cd stockly
 flutter pub get
+```
 ### 3. Fun the application
-flutter run
 
+```bash
+flutter run
+```
+---
+
+## Application Flow :
+
+Login Screen → My Stocks Screen: After logging in, users are directed to the My Stocks Screen, where they can view and manage their tracked stocks.
+
+My Stocks Screen → Choose Stocks Screen (Add button): Users can tap the "Add" button to navigate to the Choose Stocks Screen and select new stocks to track.
+
+Choose Stocks Screen → Stock Price Screen (Select stock): After selecting a stock, users are taken to the Stock Price Screen to view real-time stock data and details.
+
+Stock Price Screen → My Stocks Screen (Back button): From the Stock Price Screen, users can return to the My Stocks Screen by pressing the Back button.
+
+Stock Price Screen → My Stocks Screen (Back button): Another option to return to the My Stocks Screen from the Stock Price Screen with the Back button.
+
+Top Stocks Screen → Stock Price Screen (Select stock): Users can tap a stock in the Top Stocks Screen to view its detailed information on the Stock Price Screen.
+
+Newsfeed Screen → My Stocks Screen (Back button): After reading news on the Newsfeed Screen, users can return to the My Stocks Screen by pressing the Back button.
+
+Settings Screen → My Stocks Screen (Back button): Users can navigate back to the My Stocks Screen from the Settings Screen by pressing the Back button.
+
+---
+## Future Enhancements:
+
+Real-Time Stock Data: Integrate APIs for more detailed, real-time stock information and historical data.
+Price Alerts: Allow users to set price alerts and receive notifications when a stock hits a target price.
+Portfolio Tracking: Add portfolio management features to track overall performance, gains, and losses.
+News Customization: Enable filtering news based on user’s portfolio or specific stock interests.
+Stock Analysis Tools: Provide charts and technical analysis tools to help users make informed decisions.
+
+---
+## Conclusion : 
+
+Stockly is a user-friendly and efficient app for anyone looking to track, monitor, and manage their stock investments. With features like real-time price updates, personalized stock lists, and financial news integration, it provides a streamlined experience for both new and experienced investors. The app’s clean interface, combined with potential enhancements like price alerts, portfolio tracking, and advanced stock analysis, will further elevate its usefulness and user experience. As a cross-platform solution built with Flutter, Stockly is positioned to be a robust tool for stock enthusiasts who want to stay informed and in control of their investments, with room for future growth and continuous improvements.
